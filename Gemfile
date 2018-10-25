@@ -130,7 +130,7 @@ gem 'xapian-full-alaveteli', '~> 1.2.21.1'
 gem 'xml-simple', '~> 1.1.0', :require => 'xmlsimple'
 
 # Gems only used by the research export task
-gem 'gender_detector', '~> 1.0.0'
+gem 'gender_detector', '~> 2.0.0'
 
 # Gems related to internationalisation
 gem 'i18n', rails5? ? nil : ['~> 0.9.0', '< 0.9.3']
