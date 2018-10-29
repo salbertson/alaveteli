@@ -112,7 +112,7 @@ gem 'nokogiri', rails5? ? nil : ['~> 1.6.0', '< 1.7']
 gem 'open4', '~> 1.3.0'
 gem 'rack', rails5? ? nil : '~> 1.6.0'
 gem 'rack-ssl', '~> 1.4.0'
-gem 'rack-utf8_sanitizer', '~> 1.3.0'
+gem 'rack-utf8_sanitizer', '~> 1.6.0'
 gem 'recaptcha', '~> 4.9.0', '< 4.10.0', :require => 'recaptcha/rails'
 gem 'rmagick', '~> 2.16.0'
 gem 'rolify', '~> 5.2.0'
