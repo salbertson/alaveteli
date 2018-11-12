@@ -1,5 +1,5 @@
-<div class="sidebar__section">
-  <% if @info_request.info_request_batch %>
+<% if @info_request.info_request_batch %>
+  <div class="sidebar__section part-of-batch">
     <h2><%= _('Batch') %></h2>
     <p class="batch-status">
       <i class="batch-indicator batch-status--icon"></i>
@@ -10,5 +10,5 @@
             :count => @info_request.info_request_batch.public_bodies.count) %>
       </span>
     </p>
-  <% end %>
-</div>
+  </div>
+<% end %>
